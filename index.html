@@ -66,17 +66,19 @@ box-shadow: 8px 3px 3px 0px rgba(13, 100, 200, 0.15);
 			background:#CCC; width:100%; height:25px;
 			
 		}
-#risala{ height:100vh; width:100%; display: flex; justify-content: center; 
+#risala{  width:100%; display: flex; justify-content: center; background: #eeeeee; margin: 0px; padding: 0px;
 }
  
 input{margin: 0px; padding: 10px; width: 250px;}
  button{padding: 20px; width: 100%px; font-size: 20px; margin: 50px; color:#fff; background: #6D2372; border-radius: 50px; border: none;}
 button:hover{background: white; color: #814B87; border: solid #814B87 1px; padding: 20px; margin: 50px;}
 textarea{resize: vertical;}
- input{justify-content: left;}
- .form-group{font-family: sans-serif; justify-content: left;}
+ input{justify-content: left; }
+ .form-group{font-family: sans-serif; justify-content: left; padding: 5px;}
 input{border-radius: 20px; margin: 20px; border: solid #814B87 4px;}
 textarea{border-radius: 20px;margin: 20px; border: solid #814B87 4px;}
+body{margin: 0px;}
+.container{  width: 20%; box-shadow: lightblue; padding: 0px; margin: 50px; background-attachment: fixed; background: scroll;}
 	</style>
 </head>
 
@@ -222,13 +224,12 @@ textarea{border-radius: 20px;margin: 20px; border: solid #814B87 4px;}
   <form action="https://formspree.io/f/mqkgbjyp" method="POST">
     <div align="left">
     <div class="form-group">
-<label for="Nom">Nom</label><br/>
-<input type="text" id="Nom" name="Nom" />
+<h3>Nom</h3><input type="text" id="Nom" name="Nom" />
 </div>
 
-<div class="form-group"><label for="Prénom">Prenom</label><br/><input type="text" id="Prénom" name="Prénom"</div>
-<div class="form-group"><label for="email">Email</label><br/><input type="email" id="email" name="email" /></div>
-<div class="form-group"><label for="Message">Message</label><br/><textarea name="Message" id="Message" cols="36" rows="20"></textarea></div></div>
+<div class="form-group"><h3>Prenom</h3><input type="text" name="Prénom"  </div>
+<div class="form-group"><h3>Email</h3><input type="email" name="Email"  /></div>
+<div class="form-group"><h3>Message</h3><textarea name="Message" " cols="36" rows="20"></textarea></div></div>
 <div align="center">
 <button type="submit">Envoyer</button></div>
 </div>
