@@ -62,8 +62,21 @@ box-shadow: 8px 3px 3px 0px rgba(13, 100, 200, 0.15);
 	 
 	
 		}
-		body{ margin:0px;}
-
+		#les etapes{
+			background:#CCC; width:100%; height:25px;
+			
+		}
+#risala{ height:100vh; width:100%; display: flex; justify-content: center; 
+}
+ 
+input{margin: 0px; padding: 10px; width: 250px;}
+ button{padding: 20px; width: 100%px; outline: none; font-size: 20px; margin: 50px; color:#fff; background: #6D2372; border-radius: 50px; border: none;}
+button:hover{background: white; color: #814B87; border: solid #814B87 1px; padding: 20px; margin: 50px;}
+textarea{resize: vertical;}
+ input{justify-content: left;}
+ .form-group{font-family: sans-serif; justify-content: left;}
+input{border-radius: 20px; margin: 20px; border: solid #814B87 4px;}
+textarea{border-radius: 20px;margin: 20px; border: solid #814B87 4px;}
 	</style>
 </head>
 
@@ -73,9 +86,8 @@ box-shadow: 8px 3px 3px 0px rgba(13, 100, 200, 0.15);
 <ul>
   
 <div align="center">
-<a href="#" style="text-decoration:none; visibility:visible;
-	transform:scaleX(1); "><li>Accueil</li></a>
-<a href="#sec1" style="text-decoration:none;"><li>Réalisations</li></a>
+<a href="#" style="text-decoration: none;"><li>Accueil</li></a>
+<a href="#sec1" style="text-decoration:none;"><li>Relalisations</li></a>
 <a href="#sec4" style="text-decoration:none;"><li>Prix</li></a>
 <a href="#sec2" style="text-decoration:none;"><li>Demender un devis</li></a>
 
@@ -100,11 +112,11 @@ box-shadow: 8px 3px 3px 0px rgba(13, 100, 200, 0.15);
 </section>  
   <p>
   
-    <iframe src="https://player.vimeo.com/video/475498929" width="590" height="310" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    <img src="Page Adil production/Untitled-1fadf.png" width="465" height="362" usemap="#Map3" border="0" />
-    <map name="Map3" id="Map3">
-      <area shape="poly" coords="235,335,339,335,344,337,347,342,349,346,348,352,346,357,341,360,335,360,231,360,226,352,226,341" href="#sec2" />
-    </map>
+    <iframe src="https://player.vimeo.com/video/472661498" width="590" height="310" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <img src="Page Adil production/Untitled-1fadf.png" width="465" height="362" usemap="#Map3" border="0" />
+  <map name="Map3" id="Map3">
+    <area shape="poly" coords="235,335,339,335,344,337,347,342,349,346,348,352,346,357,341,360,335,360,231,360,226,352,226,341" href="#sec2" />
+  </map>
   </p>
 </div>
 <div align="center">
@@ -199,10 +211,28 @@ box-shadow: 8px 3px 3px 0px rgba(13, 100, 200, 0.15);
     <br />
     <br />
     <div align="center">
-   <img src="Page Adil production/Untitled-221540.png" /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><section id="sec2" data-text="section2"><a href="https://www.latlong.net/c/?lat=35.159287&long=-2.942252" id="Maps" style="text-decoration:none; position:absolute; margin:-170px; padding:80px;"><li>Map</li></a></section>
-     <br />
-      <br />
-       <br />
+      <section id="sec2" data-text="section2">
+   <img src="Page Adil production/Untitled-221540.png" /><br/><br/><br/><br/><br/></section>
 </div>
+
+
+</section>
+<section id="risala">
+<div class="container">
+  <form action="https://formspree.io/f/mqkgbjyp" method="POST">
+    <div align="left">
+    <div class="form-group">
+<label for="Nom">Nom</label><br/>
+<input type="text" id="Nom" name="Nom" />
+</div>
+
+<div class="form-group"><label for="PrÃ©nom">Prenom</label><br/><input type="text" id="PrÃ©nom" name="PrÃ©nom"</div>
+<div class="form-group"><label for="email">Email</label><br/><input type="email" id="email" name="email" /></div>
+<div class="form-group"><label for="Message">Message</label><br/><textarea name="Message" id="Message" cols="36" rows="20"></textarea></div></div>
+<div align="center">
+<button type="submit">Envoyer</button></div>
+</div>
+</form>
+
 </body>
 </html>
