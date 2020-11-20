@@ -62,7 +62,7 @@ html{ scroll-behavior: smooth;}
 #risala{  width:100%; display: flex; justify-content: center; background: #eeeeee; margin: 0px; padding: 0px;
 }
  
-input{margin: 0px; padding: 10px; width: 250px;}
+input{margin: 0px; padding: 10px; width: 250px; box-shadow: 5px 5px 0px 0px rgb(0, 0, 0); float: center;}
  button{padding: 20px; width: 100%px; font-size: 20px; margin: 50px; color:#fff; background: #6D2372; border-radius: 50px; border: none; transition: 0.3s;}
 button:hover{background: white; color: #814B87; border: solid #814B87 1px; padding: 30px; margin: 50px; box-shadow: 0 0 10px #61284b, 0 0 40px #61284b, 0 0 60px #61284b;}
 textarea{resize: vertical; 	box-shadow: 5px 5px 0px 0px rgb(0, 0, 0); float: center;}
@@ -84,10 +84,12 @@ body{margin: 0px; }
  .checkbtn:hover{display: block; float: left; color: #8200fc; }
  .checkbtn:hover{left: 0;}
  #image{ display:none}
- .nta{display: block; margin: 5px; padding: 15px;}
+ .nta{ margin: -35px; padding:-5px; display: none;}
+
 }
 .nta{margin: -19px; 
 padding: -5px; 
 display: block;
+ transform: translateY(-16px); 
 }
 	</style>
