@@ -1,8 +1,6 @@
 
 html{ scroll-behavior: smooth;}
 
-
-
 .style16 {font-family: "A Jannat LT"; color: #0B588C; font-weight: bold; font-size: 50px;}
 .style17 {
 	color: #BB2E25;
@@ -10,13 +8,6 @@ html{ scroll-behavior: smooth;}
 	font-family: "A Jannat LT";
 	font-weight: bold;
 }
-
-
-
-
-
-
-</style>
 	<meta name="google-site-verification" content="8gD44gnm26Gsc5epIRUjDPyP5xbyZRX0k26W-Q9U4jQ" />
     <style>
 	input{	box-shadow: 5px 5px 0px 0px rgb(0, 0, 0); float: center;}
@@ -90,6 +81,6 @@ body{margin: 0px; }
 .nta{margin: -19px; 
 padding: -5px; 
 display: block;
- transform: translateY(-16px); 
+ transform: translateY(-34px); 
 }
 	</style>
