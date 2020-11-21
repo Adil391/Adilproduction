@@ -70,7 +70,7 @@ body{margin: 0px; }
 @media (max-width: 1000px){
   ul{ background: #61284b ; padding: 10px; height: 100%; width: 75px; margin: 0px;display: block; }
  .checkbtn{display: block; float: left; transition: .5s;}
- li{display:line; float: left; background: none; margin: -10px;   color:#ffffff ; padding: 25px; font-size: 10px; display: block; }
+ li{ float: left; background: none; margin: -10px;   color:#ffffff ; padding: 25px; font-size: 10px; display: block; }
  li:hover{color: #8200fc; background: none; padding: 5px; margin: 10px; box-shadow: none; border: none; display: block;}
  .checkbtn:hover{display: block; float: left; color: #8200fc; }
  .checkbtn:hover{left: 0;}
