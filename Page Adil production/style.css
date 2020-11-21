@@ -75,12 +75,11 @@ body{margin: 0px; }
  .checkbtn:hover{display: block; float: left; color: #8200fc; }
  .checkbtn:hover{left: 0;}
  #image{ display:none}
- .nta{ margin: -35px; padding:-5px; display: block;}
-
+ .nta{ margin: -35px; padding:-5px; display: block; filter: brightness(20); }
 }
 .nta{margin: -19px; 
 padding: -5px; 
 display: block;
- transform: translateY(-17px); 
+ transform: translateY(-17px); ; 
 }
-	</style>
+.nta:hover{filter: saturate(0);}
