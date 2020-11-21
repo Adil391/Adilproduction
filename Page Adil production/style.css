@@ -73,7 +73,6 @@ body{margin: 0px; }
  li{ float: left; background: none; margin: 30px 0;   color:#ffffff ; padding: 15px; font-size: 10px; display: block; border-radius: 50px;}
  li:hover{color: #8200fc; background: none; padding: 15px; margin: 30px 0; box-shadow: none; border: none; display: block; box-shadow: 3px 3px 0px 0px rgb(0, 0, 0); float: center; border-radius: 50px;}
  .checkbtn:hover{display: block; float: left; color: #8200fc; }
- .checkbtn:hover{left: 0;}
  #image{ display:none}
  .nta{ margin: -35px; padding:-5px; display: block; filter: brightness(20); }
 }
