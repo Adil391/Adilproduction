@@ -11,6 +11,10 @@
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <link rel="stylesheet" href="Page Adil production/style.css">
 <meta charset="utf-8" />
+<style>
+  
+  </style>
+  
 </head>
 <body>
   
@@ -171,7 +175,26 @@
       <section id="sec2" data-text="section2">
    <img src="Page Adil production/Untitled-221540.png" /><br/><br/><br/><br/><br/></section>
    
-   <a href="https://www.mediafire.com/file/9bvv5j4vh5ajl1j/Programs_Adil_production.rar/file"><input type="button" class="btn" value="installer mes programmes"></a>
+   <input type="button" class="btn" value="installer mes programmes" onclick="myFunction()" id="btn">
+   <br>
+   <br>
+   <br>
+   <div class="alert" id="mess" style="display: none;">
+    <span class="closebtn" >x</span>
+    <div align="left">
+    <a href="http://www.mediafire.com/file/4y2caupoutf486a/Calculate_the_volume.exe/file"><input type="button" value="Calculate the volume"/></a>
+    <br>
+    <a href="http://www.mediafire.com/file/dgdqdc4fu70o3tv/XO_game.exe/file"><input type="button" value="XO game"/></a>
+    <br>
+    <a href="http://www.mediafire.com/file/crmqtj5lw5eozxs/max_Number.exe/file"><input type="button" value="max Number"/></a>
+    <br>
+    <a href="http://www.mediafire.com/file/yj8n4aevp8c8m1m/register_student.exe/file"><input type="button" value="تسجيل التلميذ"/></a>
+    <br>
+    <a href="http://www.mediafire.com/file/94by6pu7fgce2fr/1_to_9_multiplication.exe/file"><input type="button" value="1 to 9 multiplication"/></a>
+    <br>
+    <a href="http://www.mediafire.com/file/zwvkprqow45sz9n/take_advantage_of_technology_with_arabic.exe/file"><input type="button" value="take advantage of technology with arabic"/></a>
+  </div>
+  </div>
    <br>
    <br>
    <br>
@@ -259,10 +282,51 @@
         document.body.appendChild(css);
     };
 
-
+    function afficher(){
+      document.getElementById("#alert").style.display = none;
+    }
 
   </script>
+<script>
+  // Get all elements with class="closebtn"
+  var close = document.getElementsByClassName("closebtn");
+  var i;
+  
+  // Loop through all close buttons
+  for (i = 0; i < close.length; i++) {
+    // When someone clicks on a close button
+    close[i].onclick = function(){
+  
+      // Get the parent of <span class="closebtn"> (<div class="alert">)
+      var div = this.parentElement;
+  
+      // Set the opacity of div to 0 (transparent)
+      div.style.display = "none";
+  
+      // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+      setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+  }
+  function afficher(){
+      document.getElementById("#alert").style.display = none;
+    }
+  </script>
+  <script>
+    function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
 
-
+  // If the checkbox is checked, display the output text
+  if ( document.getElementById("mess").style.display = "none" && document.getElementById("btn").checked == true){
+    
+    document.getElementById("mess").style.display = "block";
+  } else {
+    
+    document.getElementById("mess").style.display = "block";
+  }
+}
+  </script>
 </body>
 </html>
