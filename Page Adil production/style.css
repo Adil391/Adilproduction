@@ -41,13 +41,22 @@ html{ scroll-behavior: smooth;}
 		
 }
 
-	
-	
+	.writer{
+		color: #69276E;
+		font-family:"Myriad Pro";
+	}
+	.typewrite{
+		color: #69276E;
+		font-family:"A Jannat LT";
+		font-size: 50px;
+		text-decoration: none;
+		border-right: 0.08em;
+	}
 	.btn:hover{
 		background-color:#ffffff;
 		color:#69276E;
 		border:1px solid #69276E;
-		box-shadow: 0 0 10px #61284b, 0 0 40px #61284b, 0 0 100px #61284b;
+		box-shadow: 0 0 10px #69276E, 0 0 40px #69276E, 0 0 100px #69276E;
 		padding: 25;
 		transition: 2s;
 		transform: rotateX(360deg);
