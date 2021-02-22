@@ -158,19 +158,36 @@ body{margin: 0px; }
  button:active{box-shadow: 0 0 10px #8200fc, 0 0 20px #8200fc, 0 0 40px #8200fc;}
 
  .checkbtn{font-size: 25px; float: left;padding: 0px; margin: 0px; color: #ffffff; margin: -3px; display: none; cursor: pointer; }
- 
+ .menu{
+	 display: none;
+ }
+.nta{
+	display: block;
+	transform: translateY(-34px);
+}
 @media (max-width: 1000px){
-  ul{ background: #61284b ; padding: 10px; height: 100%; width: 75px; margin: 0px;display: block; }
- .checkbtn{display: block; float: left; transition: .5s;}
- li{ float: left; background: none; margin: 30px 0;   color:#ffffff ; padding: 15px; font-size: 10px; display: block; border-radius: 50px;}
- li:hover{color: #8200fc; background: none; padding: 15px; margin: 30px 0; box-shadow: none; border: none; display: block; box-shadow: 3px 3px 0px 0px rgb(0, 0, 0); float: center; border-radius: 50px;}
- .checkbtn:hover{display: block; float: left; color: #8200fc; }
- #image{ display:none}
- .nta{ margin: -35px; padding:-5px; display: block; filter: brightness(20); }
+	
+ul{
+	display: block;
+	height: 5%;
 }
-.nta{margin: -19px; 
-padding: -5px; 
-display: block;
- transform: translateY(-17px); ; 
+.menu{
+	display: block;
+	color: white;
 }
-.nta:hover{filter: saturate(0);}
+
+ 
+ li{
+     font-size: 25px;
+	 margin: 0%;
+	 padding: 30px;
+  }
+
+ 
+ #image{ display:none;}
+ .nta{
+	display: none;
+}
+}
+
+
