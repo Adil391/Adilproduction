@@ -20,10 +20,13 @@
   
   <div class="progress"></div>
 <div align="left">
+  <span class="menu" id="menu" onclick="disp()">︙</span>
+  <div class="ul">
 <ul>
   
   <label for="check" class="checkbtn">
   <i class="fas fa-bars"></i></label>
+  <span class="menu" id="menu" onclick="disp()">︙</span>
 <a href="#"class="li" style="text-decoration: none; "><li>Accueil</li></a>
 <a href="#sec1" style="text-decoration:none;"><li>Realisations</li></a>
 <a href="#sec4" style="text-decoration:none;"><li>Prix</li></a>
@@ -37,6 +40,7 @@
 <p>&nbsp;</p>
 <li></li>
 </ul>
+</div>
 <br>
 <br>
 <br>
@@ -225,6 +229,7 @@
 <br>
 
 <script>
+  
  var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -288,6 +293,7 @@
 
   </script>
 <script>
+  
   // Get all elements with class="closebtn"
   var close = document.getElementsByClassName("closebtn");
   var i;
@@ -312,6 +318,7 @@
     }
   </script>
   <script>
+    
     function myFunction() {
   // Get the checkbox
   var checkBox = document.getElementById("myCheck");
@@ -327,6 +334,18 @@
     document.getElementById("mess").style.display = "block";
   }
 }
+  </script>
+  
+  <script>
+    function disp(){
+      
+      if(document.getElementById("ul").style.display = "block" && document.getElementById("menu").checked == true){
+        document.getElementsById("ul").style.display = "none";
+      }
+      else{
+        document.getElementsById("ul").style.display = "none";
+      }
+    }
   </script>
 </body>
 </html>
