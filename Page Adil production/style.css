@@ -8,8 +8,7 @@ html{ scroll-behavior: smooth;}
 	font-family: "A Jannat LT";
 	font-weight: bold;
 }
-	<meta name="google-site-verification" content="8gD44gnm26Gsc5epIRUjDPyP5xbyZRX0k26W-Q9U4jQ" />
-    <style>
+	
 	input{	box-shadow: 5px 5px 0px 0px rgb(0, 0, 0); float: center;}
 	ul{ list-style-type:none;
 	padding:40px;
@@ -165,11 +164,19 @@ body{margin: 0px; }
 	display: block;
 	transform: translateY(-34px);
 }
+.esp{
+	display: none;
+	transition: 0.4s;
+}
 @media (max-width: 1000px){
 	
 ul{
 	display: block;
-	height: 5%;
+	
+}
+.esp{
+	display: block;
+	transition: 0.4s;
 }
 .menu{
 	display: block;
