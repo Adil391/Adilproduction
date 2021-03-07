@@ -186,11 +186,11 @@ body{margin: 0px; }
 
 
 
-@media (max-width: 1000px){
+@media (max-width: 1300px){
 	
 ul{
 	display: block;
-	
+	height: 150px;
 }
 .esp{
 	display: block;
