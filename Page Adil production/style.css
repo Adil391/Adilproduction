@@ -172,7 +172,10 @@ body{margin: 0px; }
 	box-shadow: 5px 3px;
 }
 
-
+#information{
+	font-family: "A Jannat Lt";
+	text-shadow: 2px 2px 4px #000000;
+}
 
 
 
